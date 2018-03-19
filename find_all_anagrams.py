@@ -1,10 +1,6 @@
 class Solution(object):
     def findAnagrams(self, s, p):
-        """
-        :param s: str
-        :param p: str
-        :return: List[int
-        """
+
         result = []
         length_s = len(s)
         length_p = len(p)
